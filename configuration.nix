@@ -103,7 +103,7 @@
   # Define a user account
   users.users.simxnet = {
     isNormalUser = true;
-    description = "Yulia Simonet Freynik";
+    description = "Juli";
     extraGroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [
       (discord.override {
